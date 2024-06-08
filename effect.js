@@ -41,7 +41,7 @@ $('document').ready(function(){
 		$('body').addClass('peach-after');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
-		});
+		}); 
 	});
 
 	$('#bannar_coming').click(function(){
